@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form Validation</title>
+		<script src="index.js" defer></script>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div
+			id="container"
+			class="grid grid-rows-[min-content_1fr] h-screen antialiased bg-gradient-to-br from-indigo-200 via-neutral-200 to-pink-200"
+		>
+			<div id="head" class="w-screen h-16 flex items-center justify-center">
+				<p class="font-thin text-3xl italic">Tell Us About Yourself</p>
+			</div>
+			<form
+				action="none"
+				class="w-5/12 h-5/6 justify-self-center self-center rounded-lg text-black bg-gradient-to-bl from-gray-100 to-gray-400 shadow-2xl grid grid-cols-2 auto-rows-auto gap-8 py-8 px-4 pt-1 justify-items-center items-center"
+			>
+				<div class="flex flex-col w-5/6">
+					<label class="mb-2" for="name">Your name?:</label>
+					<input
+						class="rounded-md px-2 py-1 h-[26px]"
+						type="text"
+						name="name"
+						id="name"
+					/>
+				</div>
+				<div class="flex flex-col w-5/6">
+					<label class="mb-2" for="email">Your email?:</label>
+					<input
+						class="rounded-md px-2 py-1 h-[26px]"
+						type="email"
+						name="email"
+						id="email"
+					/>
+				</div>
+				<div class="flex flex-col w-5/6">
+					<label class="mb-2" for="age">How old are you?:</label>
+					<input
+						class="rounded-md px-2 py-1 h-[26px]"
+						type="number"
+						name="age"
+						id="age"
+					/>
+				</div>
+				<div class="flex flex-col w-5/6">
+					<label class="mb-2" for="phone">Your phone?:</label>
+					<input
+						class="rounded-md px-2 py-1 h-[26px]"
+						type="number"
+						name="phone"
+						id="phone"
+					/>
+				</div>
+				<div class="flex flex-col w-5/6">
+					<label class="mb-2" for="birth">Your birthday?:</label>
+					<input
+						class="rounded-md px-2 py-1 h-[26px]"
+						type="date"
+						name="birth"
+						id="birth"
+					/>
+				</div>
+				<div class="flex flex-col w-5/6">
+					<label class="mb-2" for="zip">Your Zip?:</label>
+					<input
+						class="rounded-md px-2 py-1 h-[26px]"
+						type="text"
+						name="zip"
+						id="zip"
+					/>
+				</div>
+				<div class="flex flex-col w-5/6">
+					<label class="mb-2" for="fruit">Favorite fruit?:</label>
+					<input
+						class="rounded-md px-2 py-1 h-[26px]"
+						type="text"
+						name="fruit"
+						id="fruit"
+					/>
+				</div>
+				<button
+					class="min-h-0 h-5/6 w-10/12 bg-gradient-to-r from-sky-400 to-indigo-400 col-span-2 rounded-lg text-xl font-semibold drop-shadow-md hover:drop-shadow-lg duration-300"
+				>
+					<p class="drop-shadow-md hover:drop-shadow-lg">Submit</p>
+				</button>
+			</form>
+		</div>
+	</body>
+</html>
