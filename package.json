@@ -1,27 +1,28 @@
 {
-  "name": "form-validation",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/grazomarin/form-validation.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/grazomarin/form-validation/issues"
-  },
-  "homepage": "https://github.com/grazomarin/form-validation#readme",
-  "devDependencies": {
-    "eslint": "^8.26.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "prettier": "^2.7.1",
-    "sass": "^1.55.0",
-    "tailwindcss": "^3.2.1"
-  }
+	"name": "form-validation",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/grazomarin/form-validation.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/grazomarin/form-validation/issues"
+	},
+	"homepage": "https://github.com/grazomarin/form-validation#readme",
+	"devDependencies": {
+		"@shrutibalasa/tailwind-grid-auto-fit": "^1.1.0",
+		"eslint": "^8.26.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"prettier": "^2.7.1",
+		"sass": "^1.55.0",
+		"tailwindcss": "^3.2.1"
+	}
 }
